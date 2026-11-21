@@ -1,0 +1,4 @@
+Options -Indexes
+<FilesMatch "^(server\.js|README\.txt)$">
+  Require all denied
+</FilesMatch>

@@ -1,0 +1,81 @@
+{
+ "s": {
+  "name": "Aurum",
+  "tag": "Where luxury meets your best look.",
+  "about": "An unhurried, private salon experience with master stylists, premium products and a calm, golden-lit space made for you.",
+  "phone": "+91 00000 00000",
+  "wa": "",
+  "address": "Civil Lines, Meerut, Uttar Pradesh",
+  "hours": "10:00 am to 8:00 pm, every day"
+ },
+ "v": [
+  [
+   "Signature Haircut & Styling",
+   "Consultation, wash, precision cut and blow-dry",
+   1200,
+   "60 min",
+   "✂️"
+  ],
+  [
+   "Hair Colour & Balayage",
+   "Premium colour with bond protection",
+   4500,
+   "3 hr",
+   "🎨"
+  ],
+  [
+   "Keratin & Smoothing",
+   "Frizz-free shine that lasts for months",
+   5500,
+   "2.5 hr",
+   "✨"
+  ],
+  [
+   "Signature Facial",
+   "Deep cleanse, glow and hydration",
+   2200,
+   "75 min",
+   "🌸"
+  ],
+  [
+   "Bridal Makeover",
+   "Hair, makeup and draping, trial included",
+   18000,
+   "Full day",
+   "👑"
+  ],
+  [
+   "Manicure & Pedicure",
+   "Spa finish with a gel option",
+   1800,
+   "90 min",
+   "💅"
+  ]
+ ],
+ "g": [
+  {
+   "src": "",
+   "cap": "Golden balayage"
+  },
+  {
+   "src": "",
+   "cap": "Bridal updo"
+  },
+  {
+   "src": "",
+   "cap": "Glass-skin facial"
+  },
+  {
+   "src": "",
+   "cap": "Velvet colour"
+  },
+  {
+   "src": "",
+   "cap": "Classic cut"
+  },
+  {
+   "src": "",
+   "cap": "Nail art"
+  }
+ ]
+}

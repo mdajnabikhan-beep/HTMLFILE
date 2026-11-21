@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aurum Luxe Salon</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="bg" aria-hidden="true"></div>
+<nav class="glass" id="nav">
+  <a class="logo" href="#top" data-s="name">Aurum</a>
+  <ul><li><a href="#services">Services</a></li><li><a href="#gallery">Gallery</a></li><li><a href="#book">Book</a></li><li><a href="#visit">Visit</a></li></ul>
+  <div class="navr"><a class="btn pri" href="#book">Book now</a><button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false">☰</button></div>
+</nav>
+
+<section class="hero" id="top">
+  <div>
+    <div class="kick">Hair · Skin · Bridal</div>
+    <h1 data-s="tag">Where luxury meets your best look.</h1>
+    <p data-s="about">An unhurried, private salon experience with master stylists, premium products and a calm, golden-lit space made for you.</p>
+    <div class="btns"><a class="btn pri" href="#book">Reserve a seat</a><a class="btn" href="#services">View services</a></div>
+  </div>
+  <div>
+    <div class="stage" id="stage"><div class="orb" id="orb"><i class="ring"></i><i class="ring"></i><i class="ring"></i><i class="ring"></i><div class="core">✦</div></div></div>
+    <p class="hint">Move your pointer over the rings to tilt them.</p>
+  </div>
+</section>
+
+<section id="services">
+  <h2>Signature services</h2>
+  <p class="sub">Every visit begins with a personal consultation. Prices are starting prices and may vary with hair length and products.</p>
+  <div class="grid" id="sgrid"></div>
+</section>
+
+<section id="gallery">
+  <h2>Our work</h2>
+  <p class="sub">A glimpse of recent looks from our chairs.</p>
+  <div class="car" id="car"><div class="belt" id="belt"></div></div>
+  <div class="ctl"><button type="button" id="prev" aria-label="Previous photo">‹</button><button type="button" id="next" aria-label="Next photo">›</button></div>
+</section>
+
+<section id="book">
+  <div class="split">
+    <div class="panel glass">
+      <h2>Book your visit</h2>
+      <p class="sub">Choose a service and a time. We will confirm your slot on WhatsApp or by phone.</p>
+      <form class="form" id="form">
+        <div class="two"><div><label for="n">Your name</label><input id="n" required autocomplete="name"></div><div><label for="p">Phone</label><input id="p" type="tel" required inputmode="tel" autocomplete="tel"></div></div>
+        <div><label for="sv">Service</label><select id="sv"></select></div>
+        <div class="two"><div><label for="d">Date</label><input id="d" type="date" required></div><div><label for="t">Time</label><select id="t"></select></div></div>
+        <div><label for="m">Note (optional)</label><textarea id="m" rows="2"></textarea></div>
+        <button class="btn pri" type="submit">Request booking</button>
+        <p class="ok" id="ok" role="status"></p>
+      </form>
+    </div>
+    <div class="panel glass">
+      <h2>The Aurum promise</h2>
+      <ul class="facts" style="margin-top:22px">
+        <li><span>✨</span><div><b>Master stylists</b><em>Trained for years in colour, cuts and bridal artistry.</em></div></li>
+        <li><span>🧴</span><div><b>Premium products</b><em>Only salon-grade, skin-tested brands.</em></div></li>
+        <li><span>🧼</span><div><b>Hygiene first</b><em>Sterilised tools and fresh linen for every guest.</em></div></li>
+        <li><span>🥂</span><div><b>Private suites</b><em>Quiet, comfortable and unrushed.</em></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="visit">
+  <div class="panel glass">
+    <h2>Visit us</h2>
+    <p class="sub">Walk-ins are welcome when a seat is free. Bookings get priority.</p>
+    <div class="split">
+      <ul class="facts"><li><span>📍</span><div><b>Address</b><em data-s="address">Civil Lines, Meerut, Uttar Pradesh</em></div></li><li><span>📞</span><div><b>Phone</b><em data-s="phone">+91 00000 00000</em></div></li></ul>
+      <ul class="facts"><li><span>🕘</span><div><b>Hours</b><em data-s="hours">10:00 am to 8:00 pm, every day</em></div></li></ul>
+    </div>
+  </div>
+</section>
+<footer>© <span data-s="name">Aurum</span> Luxe Salon. <a href="admin.html">Admin</a></footer>
+
+<div class="toast glass" id="toast" role="status"></div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
